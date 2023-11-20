@@ -1551,7 +1551,7 @@ function varsToTime() {
 		minutes = `0${minutes}`;
 	}
 	time.textContent = `${hour}:${minutes} ${timeLabel}`;
-	if (pointsNum > 299 && isNumber(pointsNum)) {
+	if (pointsNum > 284 && isNumber(pointsNum)) {
 		gameActive = false;
 		setScreen("Won");
 		finalTime.textContent = `You won at ${hour}:${minutes} ${timeLabel}`;
