@@ -2,7 +2,7 @@ v  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display
 * {
   margin: 0;
   font-family: monospace;
-  color:black;
+  color:#000000;
   font-family: 'Source Code Pro', monospace;
 }
 body {
